@@ -38,8 +38,6 @@ class Config(object):
     ALLOW_EXCL = True  # Allow ! commands as well as /
     API_OPENWEATHER = '' # OpenWeather API
 
-    # MEMES
-    DEEPFRY_TOKEN = None
 
 class Production(Config):
     LOGGER = False
